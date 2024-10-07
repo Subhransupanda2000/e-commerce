@@ -1,0 +1,150 @@
+*{
+    margin: 0;
+    padding: 0;
+  }
+  ul{
+    display: flex;
+    justify-content: flex-end;
+    list-style-type: none;
+  }
+  #loginbtn{
+    border-radius: 10px;
+    background-color: #f1f1f1;
+    width: 55px;
+    height: 25px;
+    margin-top: 10px;
+    margin-right: 10px;
+    border: none;
+    color: rgb(8, 42, 8);
+    text-decoration: none;
+  
+  }
+  #btn{
+    color: rgb(146, 146, 9);
+  
+  }
+  #loginbtn:hover{
+    background-color: white;
+  }
+  #li1{
+    padding-right: 70px;
+    margin-top: 10px;
+    color: rgb(8, 42, 8);
+  }
+  #div1{
+    background-color: #f1f1f1;
+    height: 40px;
+  }
+  
+  #inputbox{
+    margin-right: 120px;
+    margin-top: 10px;
+    width: 600px;
+    border-radius: 60px;
+    height: 25px;
+    border-style: none;
+  }
+  body{
+    background-color: black;
+  }
+  #img1 {
+     background-image: url('../public/pxel.jpg');
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+     z-index:-1;
+    height: 300px;
+    margin-top: 40px;
+    background-color: rgb(red, green, blue);
+  
+  }
+  #input{
+    margin-left: 210px;
+    margin-top: 259px;
+    width: 600px;
+    border-radius: 60px;
+    height: 35px;
+    border-style: none;
+  }
+  #img-head{
+    margin-left: 220px;
+    color:  black;
+    margin-top: 100px;
+  }
+  #img-head2{
+    margin-left: 220px;
+    color:  #ead1dc
+  }
+  #div2{
+    margin-top: 310px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 30px;
+  }
+  
+  
+  .lnk{
+    color: rgb(146, 146, 9);
+  }
+  #cart-btn{
+    width: 75px;
+    height: 45px;
+  border-radius: 10px;
+  }
+  .btn{
+    margin-left: 5px;
+  }
+  /* //Footer */
+  .footer {
+    background-color: #f8f9fa;
+    padding: 20px 0;
+    text-align: center;
+  }
+  
+  .footer-container {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+  }
+  
+  .footer-section {
+    flex: 1;
+    margin: 0 10px;
+  }
+  
+  .footer-section h3 {
+    margin-bottom: 10px;
+  }
+  
+  .footer-section ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .footer-section ul li {
+    margin: 5px 0;
+  }
+  
+  .footer-section a {
+    text-decoration: none;
+    color: #007bff;
+  }
+  
+  .footer-section a:hover {
+    text-decoration: underline;
+  }
+  
+  .social-icons a {
+    margin: 0 10px;
+  }
+  
+  .footer-bottom {
+    background-color: #e9ecef;
+    padding: 10px 0;
+  }
+  /* //card */
+  
